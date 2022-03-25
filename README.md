@@ -21,5 +21,5 @@ This script compiles sources in #F and runs them on a Docker image. The result i
 run_docker_interactive.sh
 ```
 This script runs an interactive image for .NET for Apache Spark. It also returns a link to login to Jupyter Labs.
-Next you must run notebook ***01-start-spark-debug.ipynb*** and our notebook ***Streets.ipynb****
+Next you must run notebook ***01-start-spark-debug.ipynb*** and our notebook ***Streets.ipynb***
 

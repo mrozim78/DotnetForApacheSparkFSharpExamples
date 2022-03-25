@@ -23,8 +23,8 @@ let main argv =
                         .Count()
                         .WithColumnRenamed("count","COUNT")
     let dataOut = dataGroup
-                    .OrderBy(dataGroup.["COUNT"]
-                    .Desc()
+                    .OrderBy(
+                         dataGroup.["COUNT"].Desc()
                      )
     dataOut
                 .Coalesce(1)
